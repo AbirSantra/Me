@@ -1,0 +1,123 @@
+.about{
+    background-color: var(--main-color);
+    min-height: 100vh;
+}
+
+.about-header{
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: var(--dark-1);
+}
+
+.about-header .title{
+    color: var(--light-3);
+    text-align: left;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.about-header .title::after{
+    color: var(--light-3);
+}
+
+.about-header .text{
+    color: var(--light-3);
+}
+
+.dp{
+    width: 400px;
+    padding: 1.8rem;
+    flex: 1;
+}
+
+.dp img{
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.dp img:hover{
+    transition: 0.3s ease;
+    transform: scale(1.08);
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 6rem auto; */
+}
+
+.about-content{
+    width: calc(100% - 500px);
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2rem 3rem;
+    padding: 1rem;
+    flex: 2;
+}
+
+.about-header .text{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.about-content .about-text{
+    color: var(--light-3);
+    font-size: 20px;
+}
+
+.about-btn{
+    background-color: var(--light-1);
+    color: var(--main-color);
+    font-weight: 600;
+    margin-top: 3rem;
+    transition: all 0.3s ease;
+    margin-left: 0;
+}
+
+.about-btn:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+    background-color: var(--light-1);
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 850px){
+    .about .container{
+        padding: 0 1.8rem;
+    }
+
+    .about-wrapper{
+        flex-direction: column;
+    }
+
+    .dp{
+        width: 100%;
+    }
+    
+    .about-content{
+        width: 100%;
+        min-width: 0;
+        align-items: center;
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .about-header{
+        text-align: center;
+    }
+
+
+
+    .about-content .about-text{
+        font-size: 1rem;
+        text-align: center;
+    }
+}

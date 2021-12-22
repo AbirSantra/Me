@@ -1,0 +1,48 @@
+.hire .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hire .title-sm{
+    margin: 1.5rem auto;
+    color: var(--main-color);
+}
+
+.hire .text{
+    font-size: 1.4rem;
+}
+
+.hire .main-btn{
+    margin: 2rem auto;
+    transition: 0.3s ease;
+}
+
+.hire .main-btn:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.hire .fa-envelope{
+    margin-right: 0.8rem;
+}
+
+@media screen and (max-width: 850px){
+    .hire .container{
+        padding: 0 1.8rem;
+    }
+
+    .hire .text{
+        font-size: 1rem;
+    }
+
+    .hire .hero-links{
+        justify-content: center;
+    }
+
+    .hire .hero-link{
+        margin: 0;
+        padding: 0 1rem;
+    }
+}

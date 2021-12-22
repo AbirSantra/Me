@@ -1,0 +1,74 @@
+.skills{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.card-content .main-btn:hover{
+    transform: scale(1);
+}
+
+@media screen and (max-width:850px){
+    .skills .container{
+        padding: 0 1.8rem;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:320px){
+    .title{
+        font-size: 1.8rem;
+    }
+
+    .section-header .text{
+        font-size: 1rem;
+    }
+
+    .title-sm{
+        font-size: 1.4rem;
+    }
+
+    .card-content .text{
+        font-size: 1rem;
+    }
+
+    .skills-btn{
+        font-size: 0.8rem;
+    }
+
+    .main-btn{
+        padding: 0.9rem 0.9rem;
+    }
+
+    .cards-wrap{
+        width: 100%;
+    }
+
+    .title-sm{
+        min-width: 160px;
+    }
+}

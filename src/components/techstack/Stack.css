@@ -1,0 +1,55 @@
+.stack{
+    min-height: 100vh;
+    background-color: var(--light-2);
+}
+
+
+.logos{
+    width: 100%;
+    max-width: 900px;
+    margin: auto auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 2rem 3rem;
+}
+
+.logo-icon{
+    width: 70px;
+    transition: 0.3s ease;
+    filter: grayscale(0);
+}
+
+.logo-icon:hover{
+    transform: scale(1.15);
+    transition: 0.3s ease;
+    filter: grayscale(100);
+}
+
+
+.logo-label{
+    font-size: 1rem;
+    margin: 10px auto;
+}
+
+@media screen and (max-width:850px){
+    .stack .container{
+        padding: 0 1.8rem;
+    }
+}
+
+@media screen and (max-width:320px){
+    .stack-text{
+        font-size: 1.4rem;
+    }
+}
