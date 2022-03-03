@@ -1,37 +1,37 @@
-.navbar{
-    background-color: var(--light-3);
+.navbar {
+    background-color: var(--light-1);
     height: 6rem;
 }
 
-.navbar .container{
+.navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 6rem;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 180px;
 }
 
-img{
+img {
     width: 100%;
 }
 
-.nav-links ul{
+.nav-links ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav-links li{
+.nav-links li {
     position: relative;
 }
 
-.link{
+.link {
     display: inline-block;
     padding: 0.9rem 1.2rem;
     color: var(--dark-1);
@@ -41,67 +41,64 @@ img{
     transition: 0.3s ease;
 }
 
-.link:hover{
+.link:hover {
     transition: 0.3s ease;
     color: var(--main-color-dark);
 }
 
-.main-btn{
+.main-btn {
     margin-left: 1rem;
     transition: all 0.3s ease;
 }
 
-.main-btn:hover{
+.main-btn:hover {
     transition: all 0.3s ease;
     transform: scale(1.05);
     background-color: var(--main-color-dark);
 }
 
-.nav-links-mobile{
+.nav-links-mobile {
     display: none;
 }
 
-@media screen and (max-width:1024px){
-
-    hero .container{
+@media screen and (max-width: 1024px) {
+    hero .container {
         flex-direction: column-reverse;
         justify-content: space-between;
         min-height: calc(100vh - 12rem);
         padding: 3rem 1.8rem;
     }
 
-    .hero-header{
+    .hero-header {
         font-size: 2.8rem;
     }
 
-    .designation{
+    .designation {
         font-size: 1.4rem;
     }
 
-    .hero-img img{
+    .hero-img img {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 850px){
-
-    .navbar .container{
+@media screen and (max-width: 850px) {
+    .navbar .container {
         padding: 0 1.8rem;
-    
     }
 
-    .hero .container{
+    .hero .container {
         flex-direction: column-reverse;
         justify-content: space-between;
         min-height: calc(100vh - 12rem);
         padding: 3rem 1.8rem;
     }
 
-    .nav-links{
+    .nav-links {
         display: none;
     }
 
-    .nav-links-mobile{
+    .nav-links-mobile {
         display: block;
         position: fixed;
         bottom: 0;
@@ -109,19 +106,20 @@ img{
         width: 100%;
         height: 4.5rem;
         background-color: #fff;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
     }
 
-    .nav-links-mobile ul{
+    .nav-links-mobile ul {
         display: flex;
         align-items: center;
         justify-content: space-around;
         height: 100%;
     }
 
-    .nav-links-mobile li{
+    .nav-links-mobile li {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -129,29 +127,29 @@ img{
         align-items: center;
     }
 
-    .nav-links-mobile a{
+    .nav-links-mobile a {
         display: inline-block;
         color: var(--dark-2);
         font-size: 1.2rem;
         transition: 0.3s ease;
     }
 
-    .nav-links-mobile a:hover{
+    .nav-links-mobile a:hover {
         color: var(--main-color);
         transition: 0.3s ease;
         transform: scale(1.1);
     }
 
-    .nav-label{
+    .nav-label {
         font-size: 0.7rem;
         color: var(--dark-2);
     }
 
-    .hero-text{
+    .hero-text {
         padding: 4rem 0;
     }
 
-    .hero-img{
+    .hero-img {
         width: 100%;
         padding: 1rem;
         display: flex;
@@ -159,22 +157,22 @@ img{
         justify-content: center;
     }
 
-    .hero-img img{
+    .hero-img img {
         width: 100%;
         /* max-width: 300px; */
     }
 
-    .hero-header{
+    .hero-header {
         line-height: 1;
         font-size: 2.5rem;
     }
 
-    .designation{
+    .designation {
         line-height: 1.2;
         margin-top: 16px;
     }
 
-    .hero-txt{
+    .hero-txt {
         line-height: 1.2;
     }
 }

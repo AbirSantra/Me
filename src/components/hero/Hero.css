@@ -1,35 +1,35 @@
-.hero{
-    background-color: var(--light-3);
+.hero {
+    background-color: var(--light-1);
     min-height: calc(100vh - 6rem);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hero .container{
+.hero .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.grid-1{
+.grid-1 {
     flex: 1;
 }
 
-.hero-text{
+.hero-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
 }
 
-.hero-header{
+.hero-header {
     font-size: 3.6rem;
-    line-height:  0.8;
+    line-height: 0.8;
     color: var(--dark-1);
 }
 
-.designation{
+.designation {
     color: var(--main-color);
     font-size: 1.84rem;
     font-weight: 600;
@@ -37,50 +37,50 @@
     margin-top: 1rem;
 }
 
-.hero-txt{
+.hero-txt {
     margin: 1rem 0;
     font-size: 1.2rem;
     color: var(--dark-2);
     line-height: 1.6;
 }
 
-.hero-text .main-btn{
+.hero-text .main-btn {
     margin: 1.4rem 0;
 }
 
-.hero-btn{
+.hero-btn {
     width: fit-content;
     margin: 1.4rem 0;
     transition: 0.3s ease;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
     background-color: #057035;
     color: white;
     transform: scale(1.02);
     transition: 0.3s ease;
 }
 
-.hero-links{
+.hero-links {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.hero-link{
+.hero-link {
     font-size: 28px;
     margin-right: 1.5rem;
     margin-left: 0.5rem;
     color: var(--dark-2);
-    transition:all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.hero-link:hover{
-    transition:all 0.3s ease;
+.hero-link:hover {
+    transition: all 0.3s ease;
     transform: scale(1.05);
     color: var(--main-color);
 }
 
-.hero-btn .fas{
+.hero-btn .fas {
     margin-left: 0.5rem;
 }

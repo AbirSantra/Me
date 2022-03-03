@@ -28,7 +28,6 @@ const Portfolio = () => {
 
     const handleFilterKeyChange = (key) => () => setFilterKey(key);
 
-
     return (
         <div class="portfolio section" id="projects">
             <div class="container">
@@ -37,13 +36,6 @@ const Portfolio = () => {
                     <p class="text">
                         Here are all the projects had I have worked on. <br /> I
                         keep adding new projects when I finish them
-                    </p>
-                </div>
-
-                <div class="placeholder">
-                    <p class="text">
-                        Sorry! Nothing to show here yet. Projects will be added
-                        as I complete them very soon!
                     </p>
                 </div>
 
@@ -93,31 +85,6 @@ const Portfolio = () => {
                                 <h2>Project</h2>
                             </div>
                         </div>
-                        <div class="grid-items full">
-                            <div class="gallery-image">
-                                <h2>Project</h2>
-                            </div>
-                        </div>
-                        <div class="grid-items front">
-                            <div class="gallery-image">
-                                <h2>Project</h2>
-                            </div>
-                        </div>
-                        <div class="grid-items graphic front">
-                            <div class="gallery-image">
-                                <h2>Project</h2>
-                            </div>
-                        </div>
-                        <div class="grid-items full front">
-                            <div class="gallery-image">
-                                <h2>Project</h2>
-                            </div>
-                        </div>
-                        <div class="grid-items front">
-                            <div class="gallery-image">
-                                <h2>Project</h2>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -125,4 +92,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio
+export default Portfolio;
