@@ -28,20 +28,27 @@ const About = () => {
                         </div>
                         <br />
                         <p className="about-text">
-                            Based out at West Bengal, India, I completed my
-                            schooling from Adamas International School and
-                            currently I am a 2nd-Year undergraduate in MCKV
-                            Institute of Engineering, looking for awesome
-                            oppurtunities.
+                            I am a freelance <span>Web Developer</span> (MERN)
+                            and <span>Graphics Designer</span>. I aim to create
+                            professional websites and designs that{" "}
+                            <span>make a difference</span>.
                         </p>
                         <br />
                         <p className="about-text">
-                            I am fairly positive, strong-willed and I always
-                            finish what I start. It is my dream to be happy in
-                            life and work at what I love. When I'm not coding, I
-                            love to hangout with my friends and play video
-                            games, listen to music, jam on my drums, watch
-                            Anime. Also, I love pasta.❤️
+                            I started coding since I was in highschool and
+                            currently I am a second-year undergraduate studying
+                            Information Technology at MCKV Institute of
+                            Engineering, <span>looking for opportunities</span>.
+                        </p>
+                        <br />
+                        <p className="about-text">
+                            I am fairly <span>positive</span>,{" "}
+                            <span>strong-willed</span> and I{" "}
+                            <span>always finish what I start</span>. It is my
+                            dream to be <span>happy in life</span> and do what I
+                            love. When I'm not coding, I love to hangout with my
+                            friends and play video games, listen to music, jam
+                            on my drums, watch Anime. Also, I love pasta.
                         </p>
                         <a href="#skills" className="about-btn">
                             Download CV

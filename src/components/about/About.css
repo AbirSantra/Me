@@ -1,6 +1,6 @@
 .about {
     background-color: var(--light-2);
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .about-content .section-header {
@@ -78,7 +78,12 @@
 
 .about-content .about-text {
     color: var(--dark-1);
-    font-size: 20px;
+    font-size: 1rem;
+}
+
+.about-text span {
+    color: var(--main-color);
+    font-weight: 600;
 }
 
 .location {
