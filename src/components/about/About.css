@@ -34,9 +34,9 @@
 }
 
 .dp {
-    /* width: 400px; */
-    min-width: 300px;
-    padding: 1.8rem;
+    width: 100%;
+    /* min-width: 300px; */
+    /* padding: 1.8rem; */
     flex: 1;
 }
 
@@ -151,7 +151,7 @@
         border-radius: 3px;
         background-color: var(--main-color);
         bottom: 0;
-        left: 40px;
-        transform: translateX(-50%);
+        left: 50%;
+        /* transform: translateX(-50%); */
     }
 }

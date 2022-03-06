@@ -1,0 +1,87 @@
+.mailing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mailing-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: var(--light-1);
+}
+
+.mailing-text h3 {
+    font-size: 1.8rem;
+}
+
+.mailing-text h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.mailing-text p {
+    color: var(--dark-2);
+}
+
+.mailing-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
+}
+
+.form-fields {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.form-input input {
+    width: 100%;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.submit-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 0;
+    border-radius: 0.5rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.status-message {
+    width: 100%;
+    color: var(--dark-2);
+    margin-top: 1rem;
+}

@@ -12,6 +12,11 @@ const Navbar = () => {
                 <div className="nav-links">
                     <ul>
                         <li>
+                            <a href="#about" className="link">
+                                About
+                            </a>
+                        </li>
+                        <li>
                             <a href="#skills" className="link">
                                 Skills
                             </a>
@@ -27,11 +32,6 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="#about" className="link">
-                                About
-                            </a>
-                        </li>
-                        <li>
                             <a href="#hire-me" className="main-btn">
                                 Hire Me
                             </a>
@@ -39,13 +39,33 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-            <div class="nav-links-mobile">
+            <div className="nav-links-mobile">
                 <ul>
-                    <li><a href="#skills" class="mobile-link"><i class="fas fa-file-code"></i></a></li>
-                    <li><a href="#stack" class="mobile-link"><i class="fas fa-layer-group"></i></a></li>
-                    <li><a href="#about" class="mobile-link"><i class="fas fa-user"></i></a></li>
-                    <li><a href="#projects" class="mobile-link"><i class="fas fa-briefcase"></i></a></li>
-                    <li><a href="#hire-me" class="mobile-link"><i class="fas fa-envelope-open-text"></i></a></li>
+                    <li>
+                        <a href="#about" className="mobile-link">
+                            <i className="fas fa-user"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills" className="mobile-link">
+                            <i className="fas fa-file-code"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#stack" className="mobile-link">
+                            <i className="fas fa-layer-group"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects" className="mobile-link">
+                            <i className="fas fa-briefcase"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#hire-me" className="mobile-link">
+                            <i className="fas fa-envelope-open-text"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

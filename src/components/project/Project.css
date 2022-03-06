@@ -1,0 +1,119 @@
+.projects-allItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 100%;
+    max-width: 380px;
+    height: 380px;
+    border: 2px solid var(--main-color);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-img {
+    flex: 0 1 auto;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-description {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: var(--light-3);
+    /* border-top: 2px solid var(--main-color); */
+}
+
+.project-title {
+    color: var(--dark-1);
+}
+
+.project-desc {
+    color: var(--dark-2);
+    font-size: 0.8rem;
+}
+
+.project-stack {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.stack-item {
+    margin-right: 0.5rem;
+    padding: 0 0.3rem;
+    border: 1px solid var(--main-color);
+    border-radius: 1rem;
+    color: var(--main-color);
+}
+
+.project-links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link-item {
+    font-size: 0.8rem;
+    margin-left: 1.2rem;
+    font-weight: 500;
+    color: var(--dark-2);
+    transition: all 0.3s ease-in-out;
+}
+
+.link-item:hover {
+    color: var(--dark-1);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.link-item a {
+    text-decoration: none;
+    color: var(--dark-2);
+    margin-left: 0.2rem;
+}
+
+.link-item a:hover {
+    color: var(--dark-1);
+}
+
+@media only screen and (max-width: 768px) {
+    .portfolio .container {
+        padding: 0 1.8rem;
+    }
+
+    .projects-allItems {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 7rem;
+        gap: 5rem;
+    }
+
+    .project-card {
+        margin: 0;
+    }
+}

@@ -1,18 +1,33 @@
 import React from "react";
 import "./Project.css";
-// import { Swiper } from "swiper/react";
+import projects from "../project/projects.js";
+import ProjectItem from "./ProjectItem";
 
 const Project = () => {
     return (
-        <div class="portfolio section" id="projects">
-            <div class="container">
-                <div class="section-header">
-                    <h3 class="title">Projects</h3>
-                    <p class="text">
-                        Here are all the projects I have worked on. <br />{" "}
-                        Sorry! Nothing to show here yet. Projects will be added
-                        very soon!
+        <div className="portfolio section" id="projects">
+            <div className="container">
+                <div className="section-header">
+                    <h3 className="title">Projects</h3>
+                    <p className="text">
+                        Here are all the recent projects I have worked on.{" "}
+                        <br /> More projects will be added very soon.
                     </p>
+                </div>
+                <div className="projects-allItems">
+                    {projects.map((project, index) => {
+                        return (
+                            <ProjectItem
+                                key={project.id}
+                                name={project.name}
+                                desc={project.desc}
+                                img={project.img}
+                                stack={project.stack}
+                                demo={project.demo}
+                                code={project.code}
+                            />
+                        );
+                    })}
                 </div>
             </div>
         </div>
