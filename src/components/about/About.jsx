@@ -29,8 +29,8 @@ const About = () => {
                         <br />
                         <p className="about-text">
                             I am a freelance <span>Web Developer</span> (MERN)
-                            and <span>Graphics Designer</span>. I aim to create
-                            professional websites and designs that{" "}
+                            and <span>Graphics Designer</span>. I aim towards
+                            creating professional websites and designs that{" "}
                             <span>make a difference</span>.
                         </p>
                         <br />
