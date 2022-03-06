@@ -8,6 +8,7 @@ import Project from "./components/project/Project.jsx";
 import Skills from "./components/skills/Skills";
 import Stack from "./components/techstack/Stack";
 import Footer from "./components/footer/Footer";
+require("dotenv").config();
 
 function App() {
     return (
