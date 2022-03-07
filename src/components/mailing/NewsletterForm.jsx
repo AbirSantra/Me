@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 const NewsletterForm = ({ status, message, onValidated }) => {
+    // eslint-disable-next-line
     const [error, setError] = useState(null);
     const [email, setEmail] = useState("");
 
