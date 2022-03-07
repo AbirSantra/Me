@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink, faCode } from "@fortawesome/free-solid-svg-icons";
 
 export default function ProjectItem({
-    key,
+    id,
     name,
     desc,
     img,
@@ -21,9 +21,9 @@ export default function ProjectItem({
                 <h3 className="project-title">{name}</h3>
                 <p className="text project-desc">{desc}</p>
                 <div className="project-stack">
-                    {stack.map((stackItem) => {
+                    {stack.map((stackItem, index) => {
                         return (
-                            <div className="stack-item" key={key}>
+                            <div className="stack-item" key={index}>
                                 {stackItem}
                             </div>
                         );

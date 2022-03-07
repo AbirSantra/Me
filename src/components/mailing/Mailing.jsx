@@ -5,7 +5,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 const Mailing = () => {
     const MAILCHIMP_URL = process.env.REACT_APP_MAILCHIMP;
-    console.log(MAILCHIMP_URL);
+    // console.log(MAILCHIMP_URL);
     return (
         <div className="mailing-container">
             <div className="mailing-text">
