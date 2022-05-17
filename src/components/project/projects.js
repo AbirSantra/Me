@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from "uuid";
 import portfolio from "../../img/showcase/portfolio.png";
 import coincoin from "../../img/showcase/coincoin.png";
 import weathernow from "../../img/showcase/weathernow.png";
+import polaroid from "../../img/showcase/polaroid.png";
 
 const projects = [
     {
@@ -18,7 +19,7 @@ const projects = [
         name: "Weather Now",
         desc: "A WebApp that shows the daily & weekly weather details.",
         img: weathernow,
-        stack: ["ReactJS", "API"],
+        stack: ["ReactJS", "API", "Not Responsive"],
         demo: `https://abirsantra.github.io/weathernow/`,
         code: `https://github.com/AbirSantra/weathernow`,
     },
@@ -30,6 +31,15 @@ const projects = [
         stack: ["ReactJS", "API"],
         demo: `https://abirsantra.github.io/CoinCoin/`,
         code: `https://github.com/AbirSantra/CoinCoin`,
+    },
+    {
+        id: uuidv4(),
+        name: "Polaroid",
+        desc: "An Instagram-inspired fullstack CRUD social media app.",
+        img: polaroid,
+        stack: ["ReactJS", "NodeJS", "MongoDB", "JWT Auth"],
+        demo: `https://polaroidapp.netlify.app`,
+        code: `https://github.com/AbirSantra/Polaroid`,
     },
 ];
 
